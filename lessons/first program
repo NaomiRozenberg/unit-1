@@ -1,0 +1,35 @@
+# This is a comment
+"""
+This class is about the basics of programming
+Aug 23
+"""
+#get imput from the user
+first_name = input("Please enter your first name")
+#output
+print ("Hello", first_name)
+
+#other types of variables
+school = "uwcisak" #strings
+year = 2023 #unmbers
+height = 180.3 #float: decimal numbers
+is_student = True
+
+#get imput from the user
+last_name = input("Please enter your last name")
+#output
+print ("2025.", first_name, last_name, "@uwcisak.jp")
+
+message= "Welcom to the smartest temp converter"
+print(message)
+print("#"*len(message))
+fahrenheit = input("enter the temprature in F")
+#before converting we need to make sur that the user can read 
+
+if fahrenheit.isdigit()== True: 
+    celcius = (fahrenheit - 32)*5/9
+    print(f"This tempurature is {celcius} C")
+else:
+    print("wrong input, ues decimal numbers")
+    
+
+
