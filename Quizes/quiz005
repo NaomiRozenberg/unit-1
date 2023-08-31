@@ -1,0 +1,19 @@
+def summ_letters(text:str)->int:
+    alphbet= "abcdefghijklmnopqrstuvwxyz"
+    sum = 0
+    for let in text.lower():
+        index =-1
+        for i in range(len(alphbet)):
+            if let == alphbet[i]:
+                index = i + 1
+        sum += index
+    return sum
+#proof of work
+case1 = summ_letters(text="Math")
+print(case1)
+case2 = summ_letters(text="maTH")
+print(case2)
+case3 = summ_letters(text="Hello world")
+print(case3)
+case4 = summ_letters(text="Computer Science")
+print(case4)
