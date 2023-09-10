@@ -1,0 +1,2 @@
+for room_count in range (1,100):
+  if room_count<= 10 And >
