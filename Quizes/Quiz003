@@ -1,0 +1,23 @@
+def DNA_transletar(in_protein:str ):
+
+    if in_protein in "ATCG":
+         if in_protein == "A":
+            out_protein= "T"
+         if in_protein == "G":
+            out_protein= "C"
+         if in_protein == "T":
+            out_protein= "A"
+         if in_protein == "C":
+            out_protein= "G"
+    else:
+        return "[error]"
+
+    return out_protein
+def translateSequence (sequence:str):
+    output_sequence = ""
+    for p in sequence:
+        print(p)
+        output_sequence += DNA_transletar(in_protein=p)
+        print(output_sequence)
+case1= DNA_transletar(in_protein="z")
+print(case1)
