@@ -1,1 +1,7 @@
+string = str(input("enter a string "))
+string_s = string.split()
+first_l = string_s[0(0)]
+last_l = string_s[-1]
+length = len(string_s)-2
 
+print(f"{first_l} {length} {last_l}")
