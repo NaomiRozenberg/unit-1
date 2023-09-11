@@ -1,6 +1,9 @@
-string = str(input("enter a string "))
-first_l = string[0]
-last_l = string[-1]
-length = len(string)-2
+string = input("enter a string ")
+x = string.split()
+print(x)
+for word in range(len(x)):
+    first_l = x[word][0]
+    last_l = x[word][-1]
+    length = len(x[word])-2
+    print(f"{first_l}{length}{last_l}")
 
-print(f"{first_l}{length}{last_l}")
