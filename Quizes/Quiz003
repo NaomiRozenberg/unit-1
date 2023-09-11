@@ -19,5 +19,5 @@ def translateSequence (sequence:str):
         print(p)
         output_sequence += DNA_transletar(in_protein=p)
         print(output_sequence)
-case1= DNA_transletar(in_protein="z")
+case1= DNA_transletar(in_protein=input("enter a string "))
 print(case1)
