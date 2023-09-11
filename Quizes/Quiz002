@@ -1,11 +1,11 @@
-a = int(input("write a number")
-b= int(input("write anther number")
-def number_check(a,b); 
-  if a == 20:
-    return True 
-  if a == 20:
-    return True 
-  if a+b == 20:
-    return True 
-  else: 
-    return False 
+a = int(input("write a number "))
+b= int(input("write anther number "))
+
+if a == 20:
+    print("True")
+if b == 20:
+    print("True")
+if a+b == 20:
+    print("True")
+else:
+    print("False")
