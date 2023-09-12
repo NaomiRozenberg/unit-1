@@ -19,4 +19,4 @@ print(case3)
 case4 = summ_letters(text="Computer Science")
 print(case4)
 ```
-<img width="344" alt="Screenshot 2023-09-12 at 11 23 24" src="https://github.com/NaomiRozenberg/unit-1/assets/142605919/a4f0aafd-d93d-4c63-9278-8efb11e5ebe4">
+<img width="276" alt="Screenshot 2023-09-12 at 12 51 27" src="https://github.com/NaomiRozenberg/unit-1/assets/142605919/3dfdd725-24ee-4f84-b9e3-ba5780d9d503">
