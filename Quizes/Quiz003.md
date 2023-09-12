@@ -1,3 +1,4 @@
+``` py
 def DNA_transletar(in_protein:str ):
 
     if in_protein in "ATCG":
@@ -21,3 +22,6 @@ def translateSequence (sequence:str):
         print(output_sequence)
 case1= DNA_transletar(in_protein=input("enter a string "))
 print(case1)
+```
+<img width="344" alt="Screenshot 2023-09-12 at 11 20 58" src="https://github.com/NaomiRozenberg/unit-1/assets/142605919/105093c0-65d1-4bf3-a4e4-46191e3c190c">
+
