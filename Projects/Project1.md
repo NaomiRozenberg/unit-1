@@ -67,4 +67,3 @@ My client requires a system to protect the private data. I thought about using a
 
 ```
 
-    return output
