@@ -24,4 +24,5 @@ case1= DNA_transletor(in_protein=input("enter a string "))
 print(case1)
 ```
 <img width="344" alt="Screenshot 2023-09-12 at 11 20 58" src="https://github.com/NaomiRozenberg/unit-1/assets/142605919/105093c0-65d1-4bf3-a4e4-46191e3c190c">
+<img width="521" alt="Screenshot 2023-09-12 at 12 39 52" src="https://github.com/NaomiRozenberg/unit-1/assets/142605919/467a79ef-ae92-4007-b15a-f5add3fd9ac4">
 
