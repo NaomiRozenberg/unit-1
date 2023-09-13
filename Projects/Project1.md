@@ -10,7 +10,6 @@
 Ms. Sato is a local trader who is interested in the emerging market of cryptocurrencies. She has started to buy and sell electronic currencies, however at the moment she is tracking all his transaction using a ledger in a spreadsheet which is starting to become burdensome and too disorganized. It is also difficult for Ms Sato to find past transactions or important statistics about the currency. Ms Sato is in need of a digital ledger that helps her track the amount of the cryptocurrency, the transactions, along with useful statistics. 
 
 Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
-Naomi - TRX(TRON)
 An example of the data stored is 
 
 | Date | Description | Category | Amount  |
@@ -33,8 +32,8 @@ Justify the tools/structure of your solution
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. The electronic ledger provides real time value of currency.
-5. The electronic ledger 
-6. The electronic ledger 
+5. The electronic ledger requires a password for access.
+6. The electronic ledger shows statistics such as: cash balnce and value of currency over time. 
 
 
 # Criteria B: Design
