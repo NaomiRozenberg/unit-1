@@ -1,8 +1,5 @@
 # Crypto Wallet
 
-![](22ROOSE-master768.gif)  
-<sub>Illustration for Glenn Harvey</sub>
-
 # Criteria A: Planning
 
 ## Problem definition
