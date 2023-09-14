@@ -44,15 +44,43 @@ Justify the tools/structure of your solution
 
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 24                 | B         |
+| Task No | Planned Action                          | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
+|:-------:|-----------------------------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+|    1    | Create system diagram                   | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Sep 24                 | B         |
+|    2    | Create Flow diageam for login functions |                                                                                          |               |                        |           |
+|    3    |                                         |                                                                                          |               |                        |           |
 
 # Criteria C: Development
 
 ## Login System
-My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file. More description of the code....
-
+My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file. More description of the code... 
+```.py
+def try_login(name:str, password:str)->bool:
+    with open("user.csv", mode ='r') as f:
+        data = f.readlines()
+    logged_in = False
+    for line in data:
+        uname = line.split(',')[0]
+        upass = line.split(',')[1].strip()
+        if uname == name and upass==password:
+            logged_in = True
+            break
+    return logged_in
+attempts = 3
+name = input("Enter your username ")
+password = input("Enter your password ")
+result = try_login(name=name, password=password)
+print(result)
+while result == False and attempts >0:
+    name = input("EROR Enter your username ")
+    password = input("EROR Enter your password ")
+    result = try_login(name=name, password=password)
+    attempts -= 1
+if result == False:
+    print(f"Exiting...")
+else:
+    print(f"Welcome {name}")
+```
 
 ```
 
