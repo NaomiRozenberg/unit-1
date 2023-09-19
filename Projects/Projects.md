@@ -28,8 +28,8 @@ Justify the tools/structure of your solution
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. The electronic ledger provides real time value of currency and value of currency over time.
-5. The electronic ledger provides services in multiple languages. 
+4. The electronic ledger provides real time value of TRON.
+5. The electronic ledger provides posts recently released on TRON's Instagram account.
 6. The electronic ledger shows statistics such as: cash balnce, income and spending statistics. 
 
 
