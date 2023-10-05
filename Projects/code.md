@@ -1,4 +1,4 @@
-.py'''
+```py
 import requests
 
 print("Welcome to The Crypto wallet!".center(100))
@@ -112,4 +112,4 @@ if menu == 4:
                 amount_tron = line.split(',')[2]
     print(
         f"Below Is your current info on the site\n\n1.Name:{name}\n2.Monthly Income: {monthly_income}¥\n3.TRON:{amount_tron}")
-        '''
+```
